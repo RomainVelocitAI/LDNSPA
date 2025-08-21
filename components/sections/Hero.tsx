@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Image from 'next/image';
 import { motion } from 'framer-motion';
 import Button from '@/components/ui/Button';
 import { CheckCircle, Star, TrendingUp, Award } from 'lucide-react';
@@ -39,7 +40,7 @@ export default function Hero() {
             {/* Subheadline */}
             <p className="text-xl text-gray-600 mb-8">
               93% de nos clients économisent <strong>3 000€/an</strong> en frais de spa-club 
-              tout en profitant d'un luxe privé illimité. Installation clé en main, 
+              tout en profitant d&apos;un luxe privé illimité. Installation clé en main, 
               garantie 10 ans, SAV 7j/7.
             </p>
 
@@ -51,7 +52,7 @@ export default function Hero() {
               </div>
               <div className="flex items-center gap-3">
                 <CheckCircle className="text-spa-ocean flex-shrink-0" size={20} />
-                <span className="text-gray-700">Économisez jusqu'à 60% sur votre facture énergétique</span>
+                <span className="text-gray-700">Économisez jusqu&apos;à 60% sur votre facture énergétique</span>
               </div>
               <div className="flex items-center gap-3">
                 <CheckCircle className="text-spa-ocean flex-shrink-0" size={20} />
@@ -102,10 +103,13 @@ export default function Hero() {
             className="relative"
           >
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-              <img
+              <Image
                 src="/spa-hero.jpg"
                 alt="Spa de luxe installé dans un jardin tropical"
+                width={600}
+                height={400}
                 className="w-full h-auto"
+                priority
               />
               {/* Overlay Badge */}
               <div className="absolute top-4 right-4 bg-white/95 backdrop-blur px-4 py-3 rounded-lg shadow-lg">
@@ -122,7 +126,7 @@ export default function Hero() {
               className="absolute -bottom-6 -left-6 bg-white p-4 rounded-lg shadow-xl"
             >
               <p className="text-sm text-gray-600 mb-1">Livraison offerte</p>
-              <p className="text-xl font-bold text-spa-ocean">Toute l'île</p>
+              <p className="text-xl font-bold text-spa-ocean">Toute l&apos;île</p>
             </motion.div>
 
             <motion.div

@@ -77,7 +77,7 @@ const benefits = [
   {
     icon: <Timer className="w-8 h-8" />,
     title: 'Utilisation 4 saisons',
-    description: 'Profitez de votre spa de nage toute l\'année'
+    description: 'Profitez de votre spa de nage toute l&apos;année'
   }
 ];
 
@@ -140,7 +140,7 @@ export default function SpaDeNagePage() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-xl md:text-2xl max-w-3xl mx-auto"
             >
-              L\'alliance parfaite entre fitness aquatique et relaxation
+              L&apos;alliance parfaite entre fitness aquatique et relaxation
             </motion.p>
           </div>
         </div>
@@ -193,7 +193,7 @@ export default function SpaDeNagePage() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl font-bold mb-4">Programmes d\'Entraînement</h2>
+            <h2 className="text-4xl font-bold mb-4">Programmes d&apos;Entraînement</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Des programmes adaptés à tous les objectifs fitness
             </p>
@@ -319,7 +319,7 @@ export default function SpaDeNagePage() {
                 Essai gratuit en showroom
               </Link>
               <Link href="/guide" className="btn border-2 border-white text-white hover:bg-white/10">
-                Guide d\'achat spa de nage
+                Guide d&apos;achat spa de nage
               </Link>
             </div>
           </motion.div>

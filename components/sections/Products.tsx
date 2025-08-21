@@ -1,6 +1,7 @@
 'use client';
 
 import React from 'react';
+import Image from 'next/image';
 import { motion } from 'framer-motion';
 import { ArrowRight, Sparkles, Droplets, Trees, Home } from 'lucide-react';
 import Button from '@/components/ui/Button';
@@ -90,10 +91,13 @@ export default function Products() {
             >
               {/* Image Container */}
               <div className="relative h-64 overflow-hidden">
-                <img
+                <Image
                   src={product.image}
                   alt={product.title}
-                  className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                  fill
+                  sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
+                  className="object-cover group-hover:scale-110 transition-transform duration-500"
+                  priority={index === 0}
                 />
                 {/* Badges */}
                 <div className="absolute top-4 left-4 flex gap-2">
@@ -166,7 +170,7 @@ export default function Products() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button variant="secondary" size="lg" className="bg-white text-spa-ocean hover:bg-gray-100">
-              Découvrir l'offre
+              Découvrir l&apos;offre
             </Button>
             <Button variant="ghost" size="lg" className="text-white border-2 border-white hover:bg-white/10">
               Demander un devis

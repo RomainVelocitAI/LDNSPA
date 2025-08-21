@@ -164,8 +164,8 @@ export default function Contact() {
                   className="mt-1"
                 />
                 <label htmlFor="consent" className="text-sm text-gray-600">
-                  J'accepte que mes données soient utilisées pour me recontacter dans le cadre de ma demande. 
-                  Conformément au RGPD, vous disposez d'un droit d'accès et de suppression de vos données.
+                  J&apos;accepte que mes données soient utilisées pour me recontacter dans le cadre de ma demande. 
+                  Conformément au RGPD, vous disposez d&apos;un droit d&apos;accès et de suppression de vos données.
                 </label>
               </div>
 
@@ -229,7 +229,7 @@ export default function Contact() {
                 Offre Découverte Exclusive
               </h3>
               <p className="mb-6 opacity-90">
-                Visitez notre showroom et bénéficiez d'une remise immédiate de 500€ 
+                Visitez notre showroom et bénéficiez d&apos;une remise immédiate de 500€ 
                 sur votre première commande. Essai gratuit de nos spas sur place!
               </p>
               <Button variant="secondary" className="bg-white text-spa-ocean hover:bg-gray-100">

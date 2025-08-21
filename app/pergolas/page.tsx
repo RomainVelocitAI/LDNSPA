@@ -11,7 +11,7 @@ const pergolaProducts = [
   {
     id: 1,
     name: 'Pergola Bioclimatique Premium',
-    description: 'Lames orientables motorisées pour un contrôle parfait de l\'ensoleillement',
+    description: 'Lames orientables motorisées pour un contrôle parfait de l&apos;ensoleillement',
     dimensions: 'Sur mesure jusqu\'à 7m x 4m',
     material: 'Aluminium thermolaqué',
     price: 'À partir de 12 990€',
@@ -147,7 +147,7 @@ export default function PergolasPage() {
             transition={{ duration: 0.6 }}
             className="text-center mb-16"
           >
-            <h2 className="text-4xl font-bold mb-4">Avantages d\'une Pergola</h2>
+            <h2 className="text-4xl font-bold mb-4">Avantages d&apos;une Pergola</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
               Transformez votre extérieur en espace de vie supplémentaire
             </p>
@@ -299,7 +299,7 @@ export default function PergolasPage() {
             transition={{ duration: 0.6 }}
           >
             <h2 className="text-4xl font-bold mb-6">
-              Prolongez votre espace de vie vers l\'extérieur
+              Prolongez votre espace de vie vers l&apos;extérieur
             </h2>
             <p className="text-xl mb-8 max-w-2xl mx-auto">
               Nos experts vous accompagnent dans la conception de votre pergola sur mesure

@@ -64,7 +64,7 @@ export default function Header() {
             </div>
             <div className="hidden sm:block">
               <h1 className="text-xl md:text-2xl font-bold text-spa-ocean">LDN SPA</h1>
-              <p className="text-xs text-gray-600 hidden md:block">L'excellence du bien-être à La Réunion</p>
+              <p className="text-xs text-gray-600 hidden md:block">L&apos;excellence du bien-être à La Réunion</p>
             </div>
           </Link>
 

@@ -14,10 +14,10 @@ export default function Footer() {
           <div>
             <div className="mb-6">
               <h3 className="text-2xl font-bold text-white mb-2">LDN SPA</h3>
-              <p className="text-spa-turquoise text-sm">L'excellence du bien-être à La Réunion</p>
+              <p className="text-spa-turquoise text-sm">L&apos;excellence du bien-être à La Réunion</p>
             </div>
             <p className="text-sm mb-6">
-              Acteur majeur de l'univers du spa depuis plus de 15 ans. 
+              Acteur majeur de l&apos;univers du spa depuis plus de 15 ans. 
               Fort de notre expérience et de la confiance de nos clients, 
               nous proposons une large gamme de produits de qualité et un SAV réactif.
             </p>
@@ -77,7 +77,7 @@ export default function Footer() {
               <li>
                 <Link href="#voiles" className="flex items-center gap-2 hover:text-spa-turquoise transition-colors">
                   <ChevronRight size={16} />
-                  Voiles d'ombrage
+                  Voiles d&apos;ombrage
                 </Link>
               </li>
               <li>
@@ -108,7 +108,7 @@ export default function Footer() {
               <li>
                 <Link href="#entretien" className="flex items-center gap-2 hover:text-spa-turquoise transition-colors">
                   <ChevronRight size={16} />
-                  Contrats d'entretien
+                  Contrats d&apos;entretien
                 </Link>
               </li>
               <li>

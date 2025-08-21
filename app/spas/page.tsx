@@ -132,7 +132,7 @@ export default function SpasPage() {
               transition={{ duration: 0.6, delay: 0.2 }}
               className="text-xl md:text-2xl max-w-3xl mx-auto"
             >
-              L\'excellence du bien-être aquatique à domicile
+              L&apos;excellence du bien-être aquatique à domicile
             </motion.p>
           </div>
         </div>
@@ -221,7 +221,7 @@ export default function SpasPage() {
           >
             <h2 className="text-4xl font-bold mb-4">Notre Collection de Spas</h2>
             <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-              Des spas d\'exception pour créer votre oasis de détente personnelle
+              Des spas d&apos;exception pour créer votre oasis de détente personnelle
             </p>
           </motion.div>
 
@@ -300,7 +300,7 @@ export default function SpasPage() {
               Créez votre espace de détente ultime
             </h2>
             <p className="text-xl mb-8 max-w-2xl mx-auto">
-              Bénéficiez de conseils personnalisés et d\'un accompagnement sur mesure pour votre projet spa
+              Bénéficiez de conseils personnalisés et d&apos;un accompagnement sur mesure pour votre projet spa
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link href="/contact" className="btn bg-white text-cyan-600 hover:bg-gray-100">
