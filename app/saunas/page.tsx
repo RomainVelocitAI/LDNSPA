@@ -4,6 +4,8 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowRight, Thermometer, Users, Shield, Clock } from 'lucide-react';
+import Header from '@/components/layout/Header';
+import Footer from '@/components/layout/Footer';
 
 const saunaProducts = [
   {
@@ -63,7 +65,9 @@ const benefits = [
 
 export default function SaunasPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
+    <>
+      <Header />
+      <div className="min-h-screen bg-gradient-to-b from-white to-gray-50 pt-24">
       {/* Hero Section */}
       <section className="relative h-[60vh] overflow-hidden">
         <Image
@@ -236,5 +240,7 @@ export default function SaunasPage() {
         </div>
       </section>
     </div>
+    <Footer />
+    </>
   );
 }

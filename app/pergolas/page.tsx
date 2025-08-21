@@ -4,6 +4,8 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowRight, Sun, Cloud, Wind, TreePine } from 'lucide-react';
+import Header from '@/components/layout/Header';
+import Footer from '@/components/layout/Footer';
 
 const pergolaProducts = [
   {
@@ -99,7 +101,9 @@ const configurations = [
 
 export default function PergolasPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
+    <>
+      <Header />
+      <div className="min-h-screen bg-gradient-to-b from-white to-gray-50 pt-24">
       {/* Hero Section */}
       <section className="relative h-[60vh] overflow-hidden">
         <Image
@@ -309,5 +313,7 @@ export default function PergolasPage() {
         </div>
       </section>
     </div>
+    <Footer />
+    </>
   );
 }

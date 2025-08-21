@@ -4,6 +4,8 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowRight, Droplets, Sparkles, Heart, Battery } from 'lucide-react';
+import Header from '@/components/layout/Header';
+import Footer from '@/components/layout/Footer';
 
 const spaProducts = [
   {
@@ -100,7 +102,9 @@ const technologies = [
 
 export default function SpasPage() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
+    <>
+      <Header />
+      <div className="min-h-screen bg-gradient-to-b from-white to-gray-50 pt-24">
       {/* Hero Section */}
       <section className="relative h-[60vh] overflow-hidden">
         <Image
@@ -307,5 +311,7 @@ export default function SpasPage() {
         </div>
       </section>
     </div>
+    <Footer />
+    </>
   );
 }

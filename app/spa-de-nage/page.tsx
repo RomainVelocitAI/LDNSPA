@@ -4,6 +4,8 @@ import { motion } from 'framer-motion';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowRight, Waves, Activity, Zap, Timer } from 'lucide-react';
+import Header from '@/components/layout/Header';
+import Footer from '@/components/layout/Footer';
 
 const swimSpaProducts = [
   {
@@ -108,7 +110,9 @@ const workoutPrograms = [
 
 export default function SpaDeNagePage() {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
+    <>
+      <Header />
+      <div className="min-h-screen bg-gradient-to-b from-white to-gray-50 pt-24">
       {/* Hero Section */}
       <section className="relative h-[60vh] overflow-hidden">
         <Image
@@ -319,5 +323,7 @@ export default function SpaDeNagePage() {
         </div>
       </section>
     </div>
+    <Footer />
+    </>
   );
 }
