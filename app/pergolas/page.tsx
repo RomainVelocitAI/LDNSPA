@@ -247,6 +247,7 @@ export default function PergolasPage() {
                       fill
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                       className="object-cover hover:scale-110 transition-transform duration-700"
+                      priority={index === 0}
                     />
                   </div>
                 </div>
