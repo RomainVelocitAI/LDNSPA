@@ -31,11 +31,11 @@ export default function Header() {
     <header
       className={cn(
         'fixed top-0 left-0 right-0 z-50 transition-all duration-300',
-        isScrolled ? 'bg-white/95 backdrop-blur-lg shadow-lg' : 'bg-transparent'
+        isScrolled ? 'bg-white/95 backdrop-blur-lg shadow-lg' : 'bg-white/90 backdrop-blur-sm'
       )}
     >
-      {/* Top Bar */}
-      <div className="bg-spa-ocean text-white py-2">
+      {/* Top Bar - Hidden on mobile */}
+      <div className="hidden md:block bg-spa-ocean text-white py-2">
         <div className="container flex justify-between items-center text-sm">
           <div className="flex items-center gap-4">
             <a href="tel:0262165841" className="flex items-center gap-1 hover:text-spa-turquoise transition-colors">
@@ -49,7 +49,8 @@ export default function Header() {
           </div>
           <a href="mailto:contactldnspa@gmail.com" className="flex items-center gap-1 hover:text-spa-turquoise transition-colors">
             <Mail size={14} />
-            <span>contactldnspa@gmail.com</span>
+            <span className="hidden lg:inline">contactldnspa@gmail.com</span>
+            <span className="lg:hidden">Email</span>
           </a>
         </div>
       </div>
@@ -58,23 +59,23 @@ export default function Header() {
       <nav className="container py-4">
         <div className="flex items-center justify-between">
           <Link href="/" className="flex items-center space-x-2">
-            <div className="w-12 h-12 bg-gradient-to-br from-spa-ocean to-spa-turquoise rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-xl">LDN</span>
+            <div className="w-10 h-10 md:w-12 md:h-12 bg-gradient-to-br from-spa-ocean to-spa-turquoise rounded-lg flex items-center justify-center flex-shrink-0">
+              <span className="text-white font-bold text-lg md:text-xl">LDN</span>
             </div>
-            <div>
-              <h1 className="text-2xl font-bold text-spa-ocean">LDN SPA</h1>
-              <p className="text-xs text-gray-600">L'excellence du bien-être à La Réunion</p>
+            <div className="hidden sm:block">
+              <h1 className="text-xl md:text-2xl font-bold text-spa-ocean">LDN SPA</h1>
+              <p className="text-xs text-gray-600 hidden md:block">L'excellence du bien-être à La Réunion</p>
             </div>
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center space-x-8">
+          <div className="hidden xl:flex items-center space-x-6">
             {navigation.map((item) => (
               <Link
                 key={item.name}
                 href={item.href}
                 className={cn(
-                  'font-medium transition-colors hover:text-spa-ocean',
+                  'font-medium transition-colors hover:text-spa-ocean whitespace-nowrap',
                   isScrolled ? 'text-gray-700' : 'text-gray-800'
                 )}
               >
@@ -83,7 +84,7 @@ export default function Header() {
             ))}
           </div>
 
-          <div className="hidden lg:flex items-center space-x-4">
+          <div className="hidden xl:flex items-center space-x-4">
             <Button variant="secondary" size="sm">
               Catalogue
             </Button>
@@ -94,7 +95,7 @@ export default function Header() {
 
           {/* Mobile Menu Button */}
           <button
-            className="lg:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors"
+            className="xl:hidden p-2 rounded-lg hover:bg-gray-100 transition-colors"
             onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
           >
             {isMobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
@@ -103,7 +104,7 @@ export default function Header() {
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <div className="lg:hidden absolute top-full left-0 right-0 bg-white shadow-xl border-t">
+          <div className="xl:hidden absolute top-full left-0 right-0 bg-white shadow-xl border-t">
             <div className="container py-4">
               <div className="flex flex-col space-y-4">
                 {navigation.map((item) => (

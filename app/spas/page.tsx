@@ -104,9 +104,9 @@ export default function SpasPage() {
   return (
     <>
       <Header />
-      <div className="min-h-screen bg-gradient-to-b from-white to-gray-50 pt-24">
+      <div className="min-h-screen bg-gradient-to-b from-white to-gray-50">
       {/* Hero Section */}
-      <section className="relative h-[60vh] overflow-hidden">
+      <section className="relative h-[70vh] md:h-[60vh] overflow-hidden mt-16 md:mt-20">
         <Image
           src="/spa-hero.jpg"
           alt="Spa de luxe"
