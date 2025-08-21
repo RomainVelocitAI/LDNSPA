@@ -15,7 +15,7 @@ const swimSpaProducts = [
     dimensions: '5.8m x 2.3m x 1.5m',
     swimSystem: 'Contre-courant 6 turbines',
     price: 'À partir de 34 990€',
-    image: '/spa-nage.jpg',
+    image: '/photo-1662150535993-2a8397f99603.jpg',
     features: [
       'Système de nage contre-courant réglable',
       'Zone spa séparée avec 20 jets',
@@ -31,7 +31,7 @@ const swimSpaProducts = [
     dimensions: '4.5m x 2.3m x 1.3m',
     swimSystem: 'Jets de nage PowerStream',
     price: 'À partir de 26 990€',
-    image: '/spa-nage.jpg',
+    image: '/photo-1662150535993-2a8397f99603.jpg',
     features: [
       'Zone de nage indépendante',
       'Zone spa avec température séparée',
@@ -47,7 +47,7 @@ const swimSpaProducts = [
     dimensions: '3.8m x 2.2m x 1.2m',
     swimSystem: 'TurboSwim 3 jets',
     price: 'À partir de 18 990€',
-    image: '/spa-nage.jpg',
+    image: '/photo-1662150535993-2a8397f99603.jpg',
     features: [
       'Design compact optimisé',
       'Système de nage performant',
@@ -116,7 +116,7 @@ export default function SpaDeNagePage() {
       {/* Hero Section */}
       <section className="relative h-[70vh] md:h-[60vh] overflow-hidden mt-16 md:mt-20">
         <Image
-          src="/spa-nage.jpg"
+          src="/photo-1662150535993-2a8397f99603.jpg"
           alt="Spa de nage"
           fill
           sizes="100vw"

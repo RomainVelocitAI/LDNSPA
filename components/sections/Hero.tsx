@@ -104,11 +104,11 @@ export default function Hero() {
           >
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/spa-hero.jpg"
+                src="/photo-1613487700221-38271bedcb52.jpg"
                 alt="Spa de luxe installé dans un jardin tropical"
                 width={600}
                 height={400}
-                className="w-full h-auto"
+                className="w-full h-auto rounded-2xl"
                 priority
               />
               {/* Overlay Badge */}

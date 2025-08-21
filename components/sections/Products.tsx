@@ -14,7 +14,7 @@ const products = [
     description: 'Détente absolue avec nos spas 2 à 8 places. Hydromassage thérapeutique, chromothérapie, système audio intégré.',
     price: 'À partir de 4 990€',
     features: ['Jets thérapeutiques', 'Économe en énergie', 'Connecté WiFi'],
-    image: '/spa-product.jpg',
+    image: '/photo-1603991488459-73de26c7c4f8.jpg',
     badge: 'Best-seller',
     promotion: '-25% ce mois'
   },
@@ -25,7 +25,7 @@ const products = [
     description: 'Saunas traditionnels finlandais et infrarouges. Bois noble, design personnalisable, technologie de pointe.',
     price: 'À partir de 3 490€',
     features: ['Bois de cèdre rouge', 'Poêle Harvia', 'Aromathérapie'],
-    image: '/sauna.jpg',
+    image: '/pexels-photo-2812463.jpeg',
     badge: 'Nouveau',
     promotion: 'Installation offerte'
   },
@@ -36,7 +36,7 @@ const products = [
     description: 'Créez un espace de vie extérieur unique. Lames orientables, éclairage LED, résistant aux cyclones.',
     price: 'À partir de 7 990€',
     features: ['Anti-cyclonique', 'Motorisée', 'Garantie 15 ans'],
-    image: '/pergola.jpg',
+    image: '/pexels-photo-14929512.jpeg',
     badge: 'Premium',
     promotion: 'Devis gratuit'
   },
@@ -47,7 +47,7 @@ const products = [
     description: 'Le 2-en-1 parfait : natation à contre-courant et zone de relaxation. Idéal pour les sportifs.',
     price: 'À partir de 14 990€',
     features: ['Nage à contre-courant', 'Zone spa séparée', 'Fitness aquatique'],
-    image: '/spa-nage.jpg',
+    image: '/photo-1662150535993-2a8397f99603.jpg',
     badge: 'Innovation',
     promotion: 'Financement 0%'
   }

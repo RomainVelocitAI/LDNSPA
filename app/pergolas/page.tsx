@@ -15,7 +15,7 @@ const pergolaProducts = [
     dimensions: 'Sur mesure jusqu\'à 7m x 4m',
     material: 'Aluminium thermolaqué',
     price: 'À partir de 12 990€',
-    image: '/pergola.jpg',
+    image: '/photo-1682906324513-5370a2e99e1a.jpg',
     features: [
       'Lames orientables 0-145°',
       'Capteurs météo automatiques',
@@ -31,7 +31,7 @@ const pergolaProducts = [
     dimensions: 'Modèles de 3m x 3m à 6m x 4m',
     material: 'Structure aluminium, toile PVC',
     price: 'À partir de 6 990€',
-    image: '/pergola.jpg',
+    image: '/photo-1682906324513-5370a2e99e1a.jpg',
     features: [
       'Toile imperméable et anti-UV',
       'Système de tension automatique',
@@ -47,7 +47,7 @@ const pergolaProducts = [
     dimensions: 'Personnalisable',
     material: 'Bois exotique IPÉ ou Douglas',
     price: 'À partir de 8 990€',
-    image: '/pergola.jpg',
+    image: '/photo-1682906324513-5370a2e99e1a.jpg',
     features: [
       'Bois certifié FSC',
       'Traitement autoclave classe 4',
@@ -107,7 +107,7 @@ export default function PergolasPage() {
       {/* Hero Section */}
       <section className="relative h-[70vh] md:h-[60vh] overflow-hidden mt-16 md:mt-20">
         <Image
-          src="/pergola.jpg"
+          src="/pexels-photo-14929512.jpeg"
           alt="Pergola moderne"
           fill
           sizes="100vw"

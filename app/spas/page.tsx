@@ -15,7 +15,7 @@ const spaProducts = [
     capacity: '7-9 personnes',
     jets: '65 jets',
     price: 'À partir de 24 990€',
-    image: '/spa-product.jpg',
+    image: '/photo-1603991488459-73de26c7c4f8.jpg',
     features: [
       'Système de filtration ProClarity',
       'Éclairage LED multicolore',
@@ -31,7 +31,7 @@ const spaProducts = [
     capacity: '2-3 personnes',
     jets: '25 jets',
     price: 'À partir de 7 990€',
-    image: '/spa-product.jpg',
+    image: '/photo-1603991488459-73de26c7c4f8.jpg',
     features: [
       'Design compact optimisé',
       'Jets thérapeutiques ciblés',
@@ -47,7 +47,7 @@ const spaProducts = [
     capacity: '5-6 personnes',
     jets: '45 jets',
     price: 'À partir de 15 990€',
-    image: '/spa-product.jpg',
+    image: '/photo-1603991488459-73de26c7c4f8.jpg',
     features: [
       'Places allongées ergonomiques',
       'Zone enfants sécurisée',
@@ -108,7 +108,7 @@ export default function SpasPage() {
       {/* Hero Section */}
       <section className="relative h-[70vh] md:h-[60vh] overflow-hidden mt-16 md:mt-20">
         <Image
-          src="/spa-hero.jpg"
+          src="/photo-1585351923007-bf6a01cb19de.jpg"
           alt="Spa de luxe"
           fill
           sizes="100vw"

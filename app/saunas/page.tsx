@@ -15,7 +15,7 @@ const saunaProducts = [
     capacity: '4-6 personnes',
     temperature: '80-100°C',
     price: 'À partir de 8 990€',
-    image: '/sauna.jpg',
+    image: '/pexels-photo-8845118.webp',
     features: ['Poêle à bois ou électrique', 'Bois de cèdre rouge', 'Bancs ergonomiques', 'Éclairage LED ambiance']
   },
   {
@@ -25,7 +25,7 @@ const saunaProducts = [
     capacity: '2-4 personnes',
     temperature: '40-60°C',
     price: 'À partir de 5 490€',
-    image: '/sauna.jpg',
+    image: '/pexels-photo-8845118.webp',
     features: ['Panneaux infrarouges carbone', 'Chromothérapie intégrée', 'Système audio Bluetooth', 'Contrôle digital']
   },
   {
@@ -35,7 +35,7 @@ const saunaProducts = [
     capacity: '4-8 personnes',
     temperature: '70-90°C',
     price: 'À partir de 12 990€',
-    image: '/sauna.jpg',
+    image: '/pexels-photo-8845118.webp',
     features: ['Construction en épicéa nordique', 'Isolation renforcée', 'Terrasse intégrée', 'Résistant aux intempéries']
   }
 ];
@@ -71,7 +71,7 @@ export default function SaunasPage() {
       {/* Hero Section */}
       <section className="relative h-[70vh] md:h-[60vh] overflow-hidden mt-16 md:mt-20">
         <Image
-          src="/sauna.jpg"
+          src="/pexels-photo-2812463.jpeg"
           alt="Sauna luxueux"
           fill
           sizes="100vw"
